@@ -34,7 +34,7 @@ __module_info__ = {
 # for KGBot
 class Main:
     in_help = '.demot, .slavik'
-    cmd_list = Main.in_help.split(', ')
+    cmd_list = '.demot, .slavik'.split(', ')
     ver = 'v1.0'
     des = f'Creates demotivator from photo with caption (try it yourself to understand). Also creates "slavik meme". Created by @pelmeshke.\nRequirements: {", ".join(__module_info__["dependencies"])}'
 
